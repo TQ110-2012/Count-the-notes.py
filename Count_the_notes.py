@@ -1,0 +1,7 @@
+number=int(input("Enter a number"))
+thousand=(number//1000)
+print("Notes of thousand rupees:",thousand)
+hundred=((number%1000)//100)
+print("Notes of hundred rupees:",hundred)
+ten=(((number%1000)%100)//10)
+print("Notes of 10 rupees:",ten)
